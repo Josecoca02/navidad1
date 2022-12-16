@@ -15,6 +15,19 @@
         <p id="saludos"> POR PARTE DE JOSE COCA </p>
         <p> FELIZ NAVIDAD</p>
     </div>
+  <script>
+    const myTimeout = setTimeout(mostrarSaludo, 3000);
+
+function mostrarSaludo() {
+document.getElementById("saludos").style.visibility="visible";
+}
+
+let body = document.querySelector("body");
+body.addEventListener("click", ocultarSaludo);
+
+function ocultarSaludo() {
+document.getElementById("saludos").style.visibility="visible";
+}
+</script>
 </body>
 </html>
-
