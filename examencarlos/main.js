@@ -1,4 +1,12 @@
 const body = document.querySelector('body')
+const myTimeout = setTimeout(mostrarSaludo, 3000);
+
+function mostrarSaludo() {
+document.getElementById("saludos").style.visibility="visible";
+}
+
+let div = document.querySelector("img");
+body.addEventListener("click", ocultarSaludo);
 
 const crearNeive = () => {
     let copo = document.createElement('i')
