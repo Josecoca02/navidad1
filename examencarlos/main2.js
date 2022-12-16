@@ -5,7 +5,7 @@ function mostrarSaludo() {
 document.getElementById("saludos").style.visibility="visible";
 }
 
-let body = document.querySelector("body");
+let body = document.querySelector("img");
 body.addEventListener("click", ocultarSaludo);
 
 
