@@ -23,20 +23,3 @@ const crearNeive = () => {
 }
 
 setInterval(crearNeive, 50);
-
-
-
-const myTimeout  = setTimeout(mostrarmensaje, 3000);
-
-function mostrarmensaje() {
-    document.getElementById("vertexto").style.visibility="ver";
-
-}
-
-
-let div = document.getElementById("body");
-body.addEventListener('cick', ocultarsaludo);
-
-function ocultarsaludo() {
-    document.getElementById("vertexto").style.visibility="ver";
-}
